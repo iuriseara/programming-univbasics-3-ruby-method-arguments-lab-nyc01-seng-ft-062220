@@ -15,7 +15,9 @@ def introduction_with_language(name , language = 'Ruby')
 end
 
 
-
+introduction('Iuri')
+introduction_with_language('Iuri' , 'Ruby')
+introduction_with_language_optional('Iuri')
 
 
 
